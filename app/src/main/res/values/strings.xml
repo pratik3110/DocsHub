@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">DocsHub</string>
     <string name="doctorhub">DoctorHub</string>
+<string-array name="item">
+    <item>Bhavnagar</item>
+    <item>Ahmedabad</item>
+    <item>Surat</item>
+    <item>Rajkot</item>
+    <item>Bhuj</item>
+    <item>Jamnagar</item>
+</string-array>
 </resources>
