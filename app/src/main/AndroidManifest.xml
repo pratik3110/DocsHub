@@ -11,27 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".homescreen"></activity>
         <activity android:name=".userprofile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".drprofile"></activity>
         <activity android:name=".MainActivity" />
         <activity
             android:name=".splashscreen"
-            android:theme="@style/AppTheme1"></activity>
+            android:theme="@style/AppTheme1" />
         <activity
             android:name=".login"
-            android:theme="@style/AppTheme1"></activity>
+            android:theme="@style/AppTheme1" />
         <activity
             android:name=".otp"
-            android:theme="@style/AppTheme1">
-            </activity>
-
-        </activity>
+            android:theme="@style/AppTheme1"></activity>
     </application>
 
 </manifest>

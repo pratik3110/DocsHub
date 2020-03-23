@@ -1,12 +1,19 @@
 <resources>
     <string name="app_name">DocsHub</string>
     <string name="doctorhub">DoctorHub</string>
-<string-array name="item">
-    <item>Bhavnagar</item>
-    <item>Ahmedabad</item>
-    <item>Surat</item>
-    <item>Rajkot</item>
-    <item>Bhuj</item>
-    <item>Jamnagar</item>
-</string-array>
+    <string name="find_doctor">Find Doctor</string>
+    <string name="location">Location</string>
+    <string-array name="item">
+        <item>Bhavnagar</item>
+        <item>Ahmedabad</item>
+        <item>Surat</item>
+        <item>Rajkot</item>
+        <item>Bhuj</item>
+        <item>Jamnagar</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
 </resources>

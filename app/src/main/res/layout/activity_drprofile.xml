@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".drprofile">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/splashscreenbackground">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="35dp"
+            android:text="Doctor Profile"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </Toolbar>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/dr1"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Dr Raju Rastogi"
+        android:textAlignment="center"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Surgeon"
+        android:textAlignment="center"
+        android:textSize="16sp"></TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:padding="5dp"
+            android:paddingHorizontal="15sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="5dp"
+                android:text="Hospital Name"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/hosname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:gravity="end"
+                android:paddingLeft="5dp"
+                android:text="Sadvichar Hospital"
+                android:textSize="18sp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:padding="5dp"
+            android:paddingHorizontal="15sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="5dp"
+                android:text=" Mobile Number"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:gravity="end"
+                android:paddingLeft="5dp"
+                android:text="+919845626545"
+                android:textSize="18sp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:fontFamily="@font/poppins"
+            android:padding="5dp"
+            android:paddingHorizontal="15sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:paddingLeft="5dp"
+                android:text="Address"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="end"
+                android:inputType="textMultiLine"
+                android:lines="2"
+                android:paddingLeft="5dp"
+                android:scrollHorizontally="true"
+                android:text="Bhavnagar,kalubharoad"
+                android:textSize="18sp"></TextView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
